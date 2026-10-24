@@ -1,0 +1,18 @@
+.topbar-appBar {
+  z-index: 1201;
+}
+
+.topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-left {
+  font-weight: 500;
+}
+
+.topbar-right {
+  font-style: italic;
+  color: #e0e0e0;
+}

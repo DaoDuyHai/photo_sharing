@@ -1,0 +1,34 @@
+{
+  "name": "photo-sharing-api",
+  "version": "1.0.0",
+  "description": "Backend RESTful API for Photo Sharing Application",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "photo-sharing"
+  ],
+  "author": "Đào Duy Hải",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "8.3.3",
+    "multer": "^2.1.1"
+  }
+}
